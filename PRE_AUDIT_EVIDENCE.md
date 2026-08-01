@@ -1,6 +1,5 @@
 # Pre-Audit Verification — Phase 1
 Date: 2026-07-29
-Auditor: Claude Sonnet 4.6 (High)
 Codebase: auto-data-platform Phase 1 (ingestion → profiling → inference → validation)
 
 ## Automated Checks
