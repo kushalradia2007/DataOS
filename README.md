@@ -1,6 +1,6 @@
 # Auto Data Platform Phase 1
 
-An automated data platform for ingestion, profiling, schema/type inference, and quality validation reporting. Built using Python, FastAPI, Polars, and YData Profiling.
+An automated data platform for ingestion, profiling, schema/type inference, and quality validation reporting.
 
 ## Features
 - **Multi-format Ingestion**: Load CSV, Excel, and Parquet files safely.
