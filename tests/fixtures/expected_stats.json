@@ -1,0 +1,30 @@
+{
+  "dirty_sales": {
+    "row_count": 5,
+    "duplicate_rows": 1,
+    "null_counts": {
+      "id": 0,
+      "sales": 1,
+      "category": 0
+    },
+    "n_unique": {
+      "id": 4,
+      "sales": 4,
+      "category": 3
+    }
+  },
+  "mixed_types": {
+    "row_count": 3,
+    "duplicate_rows": 0,
+    "null_counts": {
+      "a": 0,
+      "b": 0,
+      "c": 1
+    },
+    "n_unique": {
+      "a": 3,
+      "b": 3,
+      "c": 3
+    }
+  }
+}

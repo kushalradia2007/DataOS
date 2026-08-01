@@ -1,0 +1,20 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+.ruff_cache/
+.mypy_cache/
+
+# Caches and OS Junk
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log

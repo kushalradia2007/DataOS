@@ -1,0 +1,41 @@
+[project]
+name = "platform_core"
+version = "0.1.0"
+description = "Auto Data Platform Phase 1"
+authors = [{ name = "Engineer" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "polars>=0.20.0",
+    "charset-normalizer>=3.0.0",
+    "openpyxl>=3.1.0",
+    "pyarrow>=14.0.0",
+    "fg-data-profiling>=4.19.1",
+    "setuptools<70.0",
+    "fastapi>=0.140.13",
+    "uvicorn[standard]>=0.51.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "mypy>=1.8.0",
+    "ruff>=0.3.0",
+    "httpx>=0.28.1",
+    "python-multipart>=0.0.32",
+]
+
+[tool.mypy]
+strict = true
+
+[[tool.mypy.overrides]]
+# data_profiling (fg-data-profiling) is a third-party library without py.typed marker or stubs
+module = "data_profiling.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88

@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "ds_9ef0a7ef",
+  "file_name": "dirty_sales.csv",
+  "file_format": "parquet",
+  "created_at": "2026-07-29T11:32:43.373644+00:00",
+  "row_count": 5,
+  "column_count": 3,
+  "duplicate_row_count": 1,
+  "memory_usage_bytes": 86,
+  "columns": [
+    {
+      "name": "id",
+      "position": 0,
+      "physical_type": "integer",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 5,
+      "non_null_count": 5,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "unique_percentage": 80.0,
+      "sample_values": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "Column name 'id' suggests identifier"
+          ]
+        },
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (4 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 1.0,
+      "numeric_max": 4.0,
+      "numeric_mean": 2.6,
+      "numeric_median": 3.0,
+      "most_common_values": [
+        {
+          "value": "3",
+          "count": 2
+        },
+        {
+          "value": "1",
+          "count": 1
+        },
+        {
+          "value": "2",
+          "count": 1
+        },
+        {
+          "value": "4",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "sales",
+      "position": 1,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "target_candidate",
+      "total_count": 5,
+      "non_null_count": 4,
+      "null_count": 1,
+      "null_percentage": 20.0,
+      "unique_count": 4,
+      "unique_percentage": 80.0,
+      "sample_values": [
+        "200.0",
+        "100.5",
+        "150.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (3 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 100.5,
+      "numeric_max": 200.0,
+      "numeric_mean": 162.625,
+      "numeric_median": 175.0,
+      "most_common_values": [
+        {
+          "value": "200.0",
+          "count": 2
+        },
+        {
+          "value": "100.5",
+          "count": 1
+        },
+        {
+          "value": "150.0",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "category",
+      "position": 2,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 5,
+      "non_null_count": 5,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "unique_percentage": 60.0,
+      "sample_values": [
+        "A",
+        "B",
+        "C"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (3 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.0)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "A",
+          "count": 3
+        },
+        {
+          "value": "B",
+          "count": 1
+        },
+        {
+          "value": "C",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    }
+  ],
+  "validation_issues": [
+    {
+      "code": "high_null_rate",
+      "severity": "warning",
+      "title": "High null rate in column 'sales'",
+      "message": "Column 'sales' has 20.0% null values, exceeding the 10.0% threshold.",
+      "column_name": "sales",
+      "affected_rows": 1,
+      "affected_percentage": 20.0,
+      "evidence": {
+        "null_count": 1,
+        "null_percentage": 0.2,
+        "threshold": 0.1
+      },
+      "recommended_action": "Consider imputing missing values or dropping the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "duplicate_rows",
+      "severity": "warning",
+      "title": "Duplicate rows detected",
+      "message": "Dataset contains 1 duplicate rows.",
+      "column_name": null,
+      "affected_rows": 1,
+      "affected_percentage": 20.0,
+      "evidence": {
+        "duplicate_count": 1,
+        "total_rows": 5
+      },
+      "recommended_action": "Deduplicate the dataset to prevent data leakage or skewed metrics.",
+      "auto_fix_available": false
+    }
+  ],
+  "quality_score": 90.0,
+  "summary": {
+    "html_report_path": "data\\reports\\ds_9ef0a7ef_profile.html"
+  }
+}

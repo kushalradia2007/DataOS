@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "ds_832af33d",
+  "file_name": "test.csv",
+  "file_format": "parquet",
+  "created_at": "2026-07-30T11:37:01.811364+00:00",
+  "row_count": 1,
+  "column_count": 2,
+  "duplicate_row_count": 0,
+  "memory_usage_bytes": 16,
+  "columns": [
+    {
+      "name": "a",
+      "position": 0,
+      "physical_type": "integer",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 1,
+      "non_null_count": 1,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "unique_percentage": 100.0,
+      "sample_values": [
+        "1"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (1 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 1.0,
+      "numeric_max": 1.0,
+      "numeric_mean": 1.0,
+      "numeric_median": 1.0,
+      "most_common_values": [
+        {
+          "value": "1",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "b",
+      "position": 1,
+      "physical_type": "integer",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 1,
+      "non_null_count": 1,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "unique_percentage": 100.0,
+      "sample_values": [
+        "2"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (1 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 2.0,
+      "numeric_max": 2.0,
+      "numeric_mean": 2.0,
+      "numeric_median": 2.0,
+      "most_common_values": [
+        {
+          "value": "2",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    }
+  ],
+  "validation_issues": [
+    {
+      "code": "constant_column",
+      "severity": "warning",
+      "title": "Constant column 'a'",
+      "message": "Column 'a' has only 1 unique value(s) and provides no variance.",
+      "column_name": "a",
+      "affected_rows": 1,
+      "affected_percentage": 100.0,
+      "evidence": {
+        "n_unique": 1
+      },
+      "recommended_action": "Drop the constant column as it provides no useful information.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "constant_column",
+      "severity": "warning",
+      "title": "Constant column 'b'",
+      "message": "Column 'b' has only 1 unique value(s) and provides no variance.",
+      "column_name": "b",
+      "affected_rows": 1,
+      "affected_percentage": 100.0,
+      "evidence": {
+        "n_unique": 1
+      },
+      "recommended_action": "Drop the constant column as it provides no useful information.",
+      "auto_fix_available": false
+    }
+  ],
+  "quality_score": 90.0,
+  "summary": {
+    "html_report_path": "data\\reports\\ds_832af33d_profile.html"
+  }
+}

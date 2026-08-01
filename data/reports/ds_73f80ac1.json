@@ -1,0 +1,2521 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "ds_73f80ac1",
+  "file_name": "Marks-MEP-102.csv",
+  "file_format": "parquet",
+  "created_at": "2026-07-29T10:37:47.708310+00:00",
+  "row_count": 311,
+  "column_count": 29,
+  "duplicate_row_count": 0,
+  "memory_usage_bytes": 72472,
+  "columns": [
+    {
+      "name": "f",
+      "position": 0,
+      "physical_type": "integer",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 310,
+      "unique_percentage": 0.9967845659163987,
+      "sample_values": [
+        "286",
+        "31",
+        "207",
+        "256",
+        "280",
+        "89",
+        "54",
+        "12",
+        "93",
+        "251"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        }
+      ],
+      "numeric_min": 1.0,
+      "numeric_max": 314.0,
+      "numeric_mean": 158.33762057877814,
+      "numeric_median": 159.0,
+      "most_common_values": [
+        {
+          "value": "286",
+          "count": 2
+        },
+        {
+          "value": "31",
+          "count": 1
+        },
+        {
+          "value": "207",
+          "count": 1
+        },
+        {
+          "value": "256",
+          "count": 1
+        },
+        {
+          "value": "280",
+          "count": 1
+        },
+        {
+          "value": "89",
+          "count": 1
+        },
+        {
+          "value": "54",
+          "count": 1
+        },
+        {
+          "value": "12",
+          "count": 1
+        },
+        {
+          "value": "93",
+          "count": 1
+        },
+        {
+          "value": "251",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "ID No.",
+      "position": 1,
+      "physical_type": "string",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 311,
+      "unique_percentage": 1.0,
+      "sample_values": [
+        "B25DS029",
+        "B25CS055",
+        "B25ME013",
+        "B25MT024",
+        "B25DS027",
+        "B25ME058",
+        "B25ME028",
+        "B25MM025",
+        "B25EE036",
+        "B25DS006"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=8.0)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "B25DS029",
+          "count": 1
+        },
+        {
+          "value": "B25CS055",
+          "count": 1
+        },
+        {
+          "value": "B25ME013",
+          "count": 1
+        },
+        {
+          "value": "B25MT024",
+          "count": 1
+        },
+        {
+          "value": "B25DS027",
+          "count": 1
+        },
+        {
+          "value": "B25ME058",
+          "count": 1
+        },
+        {
+          "value": "B25ME028",
+          "count": 1
+        },
+        {
+          "value": "B25MM025",
+          "count": 1
+        },
+        {
+          "value": "B25EE036",
+          "count": 1
+        },
+        {
+          "value": "B25DS006",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Name",
+      "position": 2,
+      "physical_type": "string",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 309,
+      "unique_percentage": 0.9935691318327974,
+      "sample_values": [
+        "PRATYUSH SRIVASTAVA",
+        "ADITYA RAJ",
+        "ESHAAN SIVAKUMAR",
+        "MITTIREDDI PAVAN KUMAR",
+        "AJAY KUMAWAT",
+        "VANI LAKSHMI K",
+        "SHAURYA SRIVASTAV",
+        "NITISHA DESHMUKH",
+        "S VIGNESH",
+        "DASARI ABHINAV SURYATEJ"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (0.99 >= 0.95)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=16.6)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "PRATYUSH SRIVASTAVA",
+          "count": 2
+        },
+        {
+          "value": "ADITYA RAJ",
+          "count": 2
+        },
+        {
+          "value": "ESHAAN SIVAKUMAR",
+          "count": 1
+        },
+        {
+          "value": "MITTIREDDI PAVAN KUMAR",
+          "count": 1
+        },
+        {
+          "value": "AJAY KUMAWAT",
+          "count": 1
+        },
+        {
+          "value": "VANI LAKSHMI K",
+          "count": 1
+        },
+        {
+          "value": "SHAURYA SRIVASTAV",
+          "count": 1
+        },
+        {
+          "value": "NITISHA DESHMUKH",
+          "count": 1
+        },
+        {
+          "value": "S VIGNESH",
+          "count": 1
+        },
+        {
+          "value": "DASARI ABHINAV SURYATEJ",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Discipline",
+      "position": 3,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 310,
+      "null_count": 1,
+      "null_percentage": 0.003215434083601286,
+      "unique_count": 8,
+      "unique_percentage": 0.02572347266881029,
+      "sample_values": [
+        "Computer Science and Engineering",
+        "Mechanical Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Data Science and Artificial Intelligence",
+        "Mechatronics Engineering",
+        "Materials Science and Metallurgical Engineering"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (7 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.7,
+          "evidence": [
+            "Average string length (31.3) > 30"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "Computer Science and Engineering",
+          "count": 59
+        },
+        {
+          "value": "Mechanical Engineering",
+          "count": 55
+        },
+        {
+          "value": "Electrical Engineering",
+          "count": 55
+        },
+        {
+          "value": "Electronics and Communication Engineering",
+          "count": 44
+        },
+        {
+          "value": "Data Science and Artificial Intelligence",
+          "count": 43
+        },
+        {
+          "value": "Mechatronics Engineering",
+          "count": 29
+        },
+        {
+          "value": "Materials Science and Metallurgical Engineering",
+          "count": 25
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Institute Email ID",
+      "position": 4,
+      "physical_type": "string",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 311,
+      "non_null_count": 310,
+      "null_count": 1,
+      "null_percentage": 0.003215434083601286,
+      "unique_count": 311,
+      "unique_percentage": 1.0,
+      "sample_values": [
+        "panduharshi@iitbhilai.ac.in",
+        "subhamkars@iitbhilai.ac.in",
+        "aaabhay@iitbhilai.ac.in",
+        "smgodbole@iitbhilai.ac.in",
+        "nitishadesh@iitbhilai.ac.in",
+        "vanilakshmi@iitbhilai.ac.in",
+        "gremalya@iitbhilai.ac.in",
+        "spastor@iitbhilai.ac.in",
+        "palakjain@iitbhilai.ac.in",
+        "darshnandu@iitbhilai.ac.in"
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=25.6)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "panduharshi@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "subhamkars@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "aaabhay@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "smgodbole@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "nitishadesh@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "vanilakshmi@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "gremalya@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "spastor@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "palakjain@iitbhilai.ac.in",
+          "count": 1
+        },
+        {
+          "value": "darshnandu@iitbhilai.ac.in",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Batch",
+      "position": 5,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "unique_percentage": 0.02572347266881029,
+      "sample_values": [
+        "Batch 2",
+        "Batch 3",
+        "Batch 5",
+        "Batch 1",
+        "Batch 4",
+        "Batch 6 A",
+        "Batch 6 B",
+        "Batch  6\u00c2"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (8 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=7.3)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "Batch 2",
+          "count": 52
+        },
+        {
+          "value": "Batch 3",
+          "count": 52
+        },
+        {
+          "value": "Batch 5",
+          "count": 52
+        },
+        {
+          "value": "Batch 1",
+          "count": 52
+        },
+        {
+          "value": "Batch 4",
+          "count": 50
+        },
+        {
+          "value": "Batch 6 A",
+          "count": 26
+        },
+        {
+          "value": "Batch 6 B",
+          "count": 26
+        },
+        {
+          "value": "Batch  6\u00c2",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Sketching and Drawing Lab 1\n30 Marks ",
+      "position": 6,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 308,
+      "null_count": 3,
+      "null_percentage": 0.00964630225080386,
+      "unique_count": 34,
+      "unique_percentage": 0.10932475884244373,
+      "sample_values": [
+        "22.0",
+        "25.0",
+        "23.0",
+        "20.5",
+        "21.0",
+        "20.0",
+        "24.0",
+        "27.0",
+        "26.0",
+        "19.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 12.0,
+      "numeric_max": 29.0,
+      "numeric_mean": 21.978896103896105,
+      "numeric_median": 22.0,
+      "most_common_values": [
+        {
+          "value": "22.0",
+          "count": 30
+        },
+        {
+          "value": "25.0",
+          "count": 23
+        },
+        {
+          "value": "23.0",
+          "count": 22
+        },
+        {
+          "value": "20.5",
+          "count": 19
+        },
+        {
+          "value": "21.0",
+          "count": 17
+        },
+        {
+          "value": "20.0",
+          "count": 17
+        },
+        {
+          "value": "24.0",
+          "count": 14
+        },
+        {
+          "value": "27.0",
+          "count": 14
+        },
+        {
+          "value": "26.0",
+          "count": 13
+        },
+        {
+          "value": "19.0",
+          "count": 13
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Sketching and Drawing Lab 2\n40 Marks",
+      "position": 7,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 307,
+      "null_count": 4,
+      "null_percentage": 0.012861736334405145,
+      "unique_count": 34,
+      "unique_percentage": 0.10932475884244373,
+      "sample_values": [
+        "36.0",
+        "35.0",
+        "32.0",
+        "37.0",
+        "34.0",
+        "30.0",
+        "28.0",
+        "29.0",
+        "33.0",
+        "31.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 16.0,
+      "numeric_max": 40.0,
+      "numeric_mean": 32.23615635179153,
+      "numeric_median": 33.0,
+      "most_common_values": [
+        {
+          "value": "36.0",
+          "count": 34
+        },
+        {
+          "value": "35.0",
+          "count": 29
+        },
+        {
+          "value": "32.0",
+          "count": 25
+        },
+        {
+          "value": "37.0",
+          "count": 25
+        },
+        {
+          "value": "34.0",
+          "count": 22
+        },
+        {
+          "value": "30.0",
+          "count": 18
+        },
+        {
+          "value": "28.0",
+          "count": 17
+        },
+        {
+          "value": "29.0",
+          "count": 17
+        },
+        {
+          "value": "33.0",
+          "count": 17
+        },
+        {
+          "value": "31.0",
+          "count": 15
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Sketching and Drawing Lab 3\n30 Marks",
+      "position": 8,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 308,
+      "null_count": 3,
+      "null_percentage": 0.00964630225080386,
+      "unique_count": 28,
+      "unique_percentage": 0.09003215434083602,
+      "sample_values": [
+        "24.0",
+        "25.0",
+        "27.0",
+        "26.0",
+        "23.0",
+        "22.0",
+        "28.0",
+        "20.0",
+        "29.0",
+        "21.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.6,
+          "evidence": [
+            "Low cardinality ratio (0.09 < 0.1)"
+          ]
+        }
+      ],
+      "numeric_min": 9.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 24.155844155844157,
+      "numeric_median": 24.0,
+      "most_common_values": [
+        {
+          "value": "24.0",
+          "count": 54
+        },
+        {
+          "value": "25.0",
+          "count": 38
+        },
+        {
+          "value": "27.0",
+          "count": 26
+        },
+        {
+          "value": "26.0",
+          "count": 26
+        },
+        {
+          "value": "23.0",
+          "count": 25
+        },
+        {
+          "value": "22.0",
+          "count": 21
+        },
+        {
+          "value": "28.0",
+          "count": 20
+        },
+        {
+          "value": "20.0",
+          "count": 20
+        },
+        {
+          "value": "29.0",
+          "count": 13
+        },
+        {
+          "value": "21.0",
+          "count": 12
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "solid edge1\n30 Marks ",
+      "position": 9,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 307,
+      "null_count": 4,
+      "null_percentage": 0.012861736334405145,
+      "unique_count": 22,
+      "unique_percentage": 0.0707395498392283,
+      "sample_values": [
+        "28.0",
+        "29.0",
+        "27.0",
+        "26.0",
+        "30.0",
+        "25.0",
+        "24.0",
+        "20.0",
+        "18.0",
+        "22.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.6,
+          "evidence": [
+            "Low cardinality ratio (0.07 < 0.1)"
+          ]
+        }
+      ],
+      "numeric_min": 9.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 26.377850162866448,
+      "numeric_median": 28.0,
+      "most_common_values": [
+        {
+          "value": "28.0",
+          "count": 74
+        },
+        {
+          "value": "29.0",
+          "count": 50
+        },
+        {
+          "value": "27.0",
+          "count": 39
+        },
+        {
+          "value": "26.0",
+          "count": 35
+        },
+        {
+          "value": "30.0",
+          "count": 34
+        },
+        {
+          "value": "25.0",
+          "count": 15
+        },
+        {
+          "value": "24.0",
+          "count": 12
+        },
+        {
+          "value": "20.0",
+          "count": 10
+        },
+        {
+          "value": "18.0",
+          "count": 10
+        },
+        {
+          "value": "22.0",
+          "count": 10
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "solid edge 2 \n30 Marks",
+      "position": 10,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 306,
+      "null_count": 5,
+      "null_percentage": 0.01607717041800643,
+      "unique_count": 21,
+      "unique_percentage": 0.06752411575562701,
+      "sample_values": [
+        "28.0",
+        "30.0",
+        "29.0",
+        "27.0",
+        "26.0",
+        "25.0",
+        "20.0",
+        "22.0",
+        "24.0",
+        "23.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (20 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 5.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 27.174836601307188,
+      "numeric_median": 28.0,
+      "most_common_values": [
+        {
+          "value": "28.0",
+          "count": 99
+        },
+        {
+          "value": "30.0",
+          "count": 45
+        },
+        {
+          "value": "29.0",
+          "count": 42
+        },
+        {
+          "value": "27.0",
+          "count": 39
+        },
+        {
+          "value": "26.0",
+          "count": 27
+        },
+        {
+          "value": "25.0",
+          "count": 24
+        },
+        {
+          "value": "20.0",
+          "count": 8
+        },
+        {
+          "value": "22.0",
+          "count": 5
+        },
+        {
+          "value": "24.0",
+          "count": 4
+        },
+        {
+          "value": "23.0",
+          "count": 2
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Solid Edge 3\n30 Marks ",
+      "position": 11,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 307,
+      "null_count": 4,
+      "null_percentage": 0.012861736334405145,
+      "unique_count": 21,
+      "unique_percentage": 0.06752411575562701,
+      "sample_values": [
+        "28.0",
+        "27.0",
+        "26.0",
+        "29.0",
+        "30.0",
+        "25.0",
+        "24.0",
+        "23.0",
+        "28.5",
+        "22.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (20 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 13.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 26.72801302931596,
+      "numeric_median": 27.0,
+      "most_common_values": [
+        {
+          "value": "28.0",
+          "count": 75
+        },
+        {
+          "value": "27.0",
+          "count": 56
+        },
+        {
+          "value": "26.0",
+          "count": 45
+        },
+        {
+          "value": "29.0",
+          "count": 36
+        },
+        {
+          "value": "30.0",
+          "count": 27
+        },
+        {
+          "value": "25.0",
+          "count": 20
+        },
+        {
+          "value": "24.0",
+          "count": 15
+        },
+        {
+          "value": "23.0",
+          "count": 6
+        },
+        {
+          "value": "28.5",
+          "count": 5
+        },
+        {
+          "value": "22.0",
+          "count": 4
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Solid Edge 4\n30 Marks ",
+      "position": 12,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 297,
+      "null_count": 14,
+      "null_percentage": 0.04501607717041801,
+      "unique_count": 17,
+      "unique_percentage": 0.05466237942122187,
+      "sample_values": [
+        "28.0",
+        "29.0",
+        "27.0",
+        "30.0",
+        "26.0",
+        "25.0",
+        "15.0",
+        "20.0",
+        "24.0",
+        "23.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (16 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 10.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 27.333333333333332,
+      "numeric_median": 28.0,
+      "most_common_values": [
+        {
+          "value": "28.0",
+          "count": 91
+        },
+        {
+          "value": "29.0",
+          "count": 84
+        },
+        {
+          "value": "27.0",
+          "count": 37
+        },
+        {
+          "value": "30.0",
+          "count": 25
+        },
+        {
+          "value": "26.0",
+          "count": 18
+        },
+        {
+          "value": "25.0",
+          "count": 17
+        },
+        {
+          "value": "15.0",
+          "count": 6
+        },
+        {
+          "value": "20.0",
+          "count": 5
+        },
+        {
+          "value": "24.0",
+          "count": 4
+        },
+        {
+          "value": "23.0",
+          "count": 2
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Solid Edge  exam\n60 Marks ",
+      "position": 13,
+      "physical_type": "integer",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 308,
+      "null_count": 3,
+      "null_percentage": 0.00964630225080386,
+      "unique_count": 27,
+      "unique_percentage": 0.08681672025723473,
+      "sample_values": [
+        "60.0",
+        "55.0",
+        "58.0",
+        "52.0",
+        "57.0",
+        "59.0",
+        "56.0",
+        "50.0",
+        "45.0",
+        "54.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.6,
+          "evidence": [
+            "Low cardinality ratio (0.08 < 0.1)"
+          ]
+        }
+      ],
+      "numeric_min": 15.0,
+      "numeric_max": 60.0,
+      "numeric_mean": 54.83116883116883,
+      "numeric_median": 57.0,
+      "most_common_values": [
+        {
+          "value": "60.0",
+          "count": 83
+        },
+        {
+          "value": "55.0",
+          "count": 47
+        },
+        {
+          "value": "58.0",
+          "count": 39
+        },
+        {
+          "value": "52.0",
+          "count": 21
+        },
+        {
+          "value": "57.0",
+          "count": 20
+        },
+        {
+          "value": "59.0",
+          "count": 15
+        },
+        {
+          "value": "56.0",
+          "count": 15
+        },
+        {
+          "value": "50.0",
+          "count": 12
+        },
+        {
+          "value": "45.0",
+          "count": 11
+        },
+        {
+          "value": "54.0",
+          "count": 9
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Exam-mid sem",
+      "position": 14,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 68,
+      "unique_percentage": 0.21864951768488747,
+      "sample_values": [
+        "34.0",
+        "35.0",
+        "28.0",
+        "30.0",
+        "33.0",
+        "36.0",
+        "37.0",
+        "32.0",
+        "31.0",
+        "20.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 3.5,
+      "numeric_max": 47.5,
+      "numeric_mean": 30.55144694533762,
+      "numeric_median": 31.5,
+      "most_common_values": [
+        {
+          "value": "34.0",
+          "count": 16
+        },
+        {
+          "value": "35.0",
+          "count": 15
+        },
+        {
+          "value": "28.0",
+          "count": 15
+        },
+        {
+          "value": "30.0",
+          "count": 14
+        },
+        {
+          "value": "33.0",
+          "count": 13
+        },
+        {
+          "value": "36.0",
+          "count": 12
+        },
+        {
+          "value": "37.0",
+          "count": 12
+        },
+        {
+          "value": "32.0",
+          "count": 12
+        },
+        {
+          "value": "31.0",
+          "count": 12
+        },
+        {
+          "value": "20.0",
+          "count": 10
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Set",
+      "position": 15,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "unique_percentage": 0.01929260450160772,
+      "sample_values": [
+        "A",
+        "B",
+        "C",
+        "F",
+        "D",
+        "E"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (6 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.0)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "A",
+          "count": 56
+        },
+        {
+          "value": "B",
+          "count": 55
+        },
+        {
+          "value": "C",
+          "count": 55
+        },
+        {
+          "value": "F",
+          "count": 49
+        },
+        {
+          "value": "D",
+          "count": 48
+        },
+        {
+          "value": "E",
+          "count": 48
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Normalized score (out of 47)",
+      "position": 16,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 190,
+      "unique_percentage": 0.6109324758842444,
+      "sample_values": [
+        "35.48824878",
+        "32.23765639",
+        "33.17434151",
+        "31.79210165",
+        "25.42405149",
+        "32.91330052",
+        "28.66905813",
+        "31.15412559",
+        "29.5105937",
+        "33.08293766"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 6.7803493,
+      "numeric_max": 48.95615413,
+      "numeric_mean": 30.572132630212216,
+      "numeric_median": 31.87228382,
+      "most_common_values": [
+        {
+          "value": "35.48824878",
+          "count": 6
+        },
+        {
+          "value": "32.23765639",
+          "count": 5
+        },
+        {
+          "value": "33.17434151",
+          "count": 4
+        },
+        {
+          "value": "31.79210165",
+          "count": 4
+        },
+        {
+          "value": "25.42405149",
+          "count": 4
+        },
+        {
+          "value": "32.91330052",
+          "count": 4
+        },
+        {
+          "value": "28.66905813",
+          "count": 4
+        },
+        {
+          "value": "31.15412559",
+          "count": 4
+        },
+        {
+          "value": "29.5105937",
+          "count": 4
+        },
+        {
+          "value": "33.08293766",
+          "count": 4
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "",
+      "position": 17,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 10,
+      "null_count": 301,
+      "null_percentage": 0.9678456591639871,
+      "unique_count": 7,
+      "unique_percentage": 0.022508038585209004,
+      "sample_values": [
+        "Mu set",
+        "38.90740741",
+        "37.71875",
+        "31.38297872",
+        "22.08333333",
+        "19.78787879"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (6 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=8.2)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "Mu set",
+          "count": 5
+        },
+        {
+          "value": "38.90740741",
+          "count": 1
+        },
+        {
+          "value": "37.71875",
+          "count": 1
+        },
+        {
+          "value": "31.38297872",
+          "count": 1
+        },
+        {
+          "value": "22.08333333",
+          "count": 1
+        },
+        {
+          "value": "19.78787879",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "cnc",
+      "position": 18,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 307,
+      "null_count": 4,
+      "null_percentage": 0.012861736334405145,
+      "unique_count": 7,
+      "unique_percentage": 0.022508038585209004,
+      "sample_values": [
+        "9.0",
+        "10.0",
+        "8.0",
+        "9.5",
+        "0.0",
+        "8.5"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (6 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 10.0,
+      "numeric_mean": 9.066775244299674,
+      "numeric_median": 9.0,
+      "most_common_values": [
+        {
+          "value": "9.0",
+          "count": 158
+        },
+        {
+          "value": "10.0",
+          "count": 80
+        },
+        {
+          "value": "8.0",
+          "count": 43
+        },
+        {
+          "value": "9.5",
+          "count": 22
+        },
+        {
+          "value": "0.0",
+          "count": 3
+        },
+        {
+          "value": "8.5",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "3-d printing",
+      "position": 19,
+      "physical_type": "string",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 305,
+      "null_count": 6,
+      "null_percentage": 0.01929260450160772,
+      "unique_count": 10,
+      "unique_percentage": 0.03215434083601286,
+      "sample_values": [
+        "9",
+        "8",
+        "10",
+        "7",
+        "8.5",
+        "9.5",
+        "3",
+        "Absent",
+        "7.5"
+      ],
+      "inferred_type_confidence": 0.9967213114754099,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.9967213114754099,
+          "evidence": [
+            "Float parse rate is 1.00"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (9 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.3)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "9",
+          "count": 132
+        },
+        {
+          "value": "8",
+          "count": 79
+        },
+        {
+          "value": "10",
+          "count": 69
+        },
+        {
+          "value": "7",
+          "count": 10
+        },
+        {
+          "value": "8.5",
+          "count": 9
+        },
+        {
+          "value": "9.5",
+          "count": 3
+        },
+        {
+          "value": "3",
+          "count": 1
+        },
+        {
+          "value": "Absent",
+          "count": 1
+        },
+        {
+          "value": "7.5",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "laser cutting",
+      "position": 20,
+      "physical_type": "string",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 305,
+      "null_count": 6,
+      "null_percentage": 0.01929260450160772,
+      "unique_count": 9,
+      "unique_percentage": 0.028938906752411574,
+      "sample_values": [
+        "9",
+        "8",
+        "10",
+        "7",
+        "Absent ",
+        "8.5",
+        "--",
+        "7.5"
+      ],
+      "inferred_type_confidence": 0.9934426229508196,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.9934426229508196,
+          "evidence": [
+            "Float parse rate is 0.99"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (8 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.1)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "9",
+          "count": 198
+        },
+        {
+          "value": "8",
+          "count": 80
+        },
+        {
+          "value": "10",
+          "count": 19
+        },
+        {
+          "value": "7",
+          "count": 4
+        },
+        {
+          "value": "Absent ",
+          "count": 1
+        },
+        {
+          "value": "8.5",
+          "count": 1
+        },
+        {
+          "value": "--",
+          "count": 1
+        },
+        {
+          "value": "7.5",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "welding",
+      "position": 21,
+      "physical_type": "string",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 310,
+      "null_count": 1,
+      "null_percentage": 0.003215434083601286,
+      "unique_count": 13,
+      "unique_percentage": 0.04180064308681672,
+      "sample_values": [
+        "10",
+        "8",
+        "9",
+        "7",
+        "7.5",
+        "8.5",
+        "A",
+        "6",
+        "9.5",
+        "absent"
+      ],
+      "inferred_type_confidence": 0.9741935483870968,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.9741935483870968,
+          "evidence": [
+            "Float parse rate is 0.97"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (12 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.7)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "10",
+          "count": 112
+        },
+        {
+          "value": "8",
+          "count": 49
+        },
+        {
+          "value": "9",
+          "count": 47
+        },
+        {
+          "value": "7",
+          "count": 38
+        },
+        {
+          "value": "7.5",
+          "count": 37
+        },
+        {
+          "value": "8.5",
+          "count": 14
+        },
+        {
+          "value": "A",
+          "count": 5
+        },
+        {
+          "value": "6",
+          "count": 4
+        },
+        {
+          "value": "9.5",
+          "count": 1
+        },
+        {
+          "value": "absent",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "End sem (out of 100)",
+      "position": 22,
+      "physical_type": "integer",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 310,
+      "null_count": 1,
+      "null_percentage": 0.003215434083601286,
+      "unique_count": 10,
+      "unique_percentage": 0.03215434083601286,
+      "sample_values": [
+        "100.0",
+        "95.0",
+        "90.0",
+        "85.0",
+        "40.0",
+        "0.0",
+        "60.0",
+        "80.0",
+        "75.0"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (9 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 100.0,
+      "numeric_mean": 94.7258064516129,
+      "numeric_median": 100.0,
+      "most_common_values": [
+        {
+          "value": "100.0",
+          "count": 175
+        },
+        {
+          "value": "95.0",
+          "count": 72
+        },
+        {
+          "value": "90.0",
+          "count": 44
+        },
+        {
+          "value": "85.0",
+          "count": 6
+        },
+        {
+          "value": "40.0",
+          "count": 5
+        },
+        {
+          "value": "0.0",
+          "count": 3
+        },
+        {
+          "value": "60.0",
+          "count": 2
+        },
+        {
+          "value": "80.0",
+          "count": 2
+        },
+        {
+          "value": "75.0",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Assignment mark (out of 40)",
+      "position": 23,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 210,
+      "unique_percentage": 0.6752411575562701,
+      "sample_values": [
+        "29.96969697",
+        "29.24242424",
+        "28.18181818",
+        "27.66666667",
+        "27.93939394",
+        "28.39393939",
+        "26.03030303",
+        "27.65151515",
+        "29.15151515",
+        "28.89393939"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 13.75757576,
+      "numeric_max": 31.33333333,
+      "numeric_mean": 27.628325050836008,
+      "numeric_median": 28.18181818,
+      "most_common_values": [
+        {
+          "value": "29.96969697",
+          "count": 5
+        },
+        {
+          "value": "29.24242424",
+          "count": 5
+        },
+        {
+          "value": "28.18181818",
+          "count": 4
+        },
+        {
+          "value": "27.66666667",
+          "count": 4
+        },
+        {
+          "value": "27.93939394",
+          "count": 3
+        },
+        {
+          "value": "28.39393939",
+          "count": 3
+        },
+        {
+          "value": "26.03030303",
+          "count": 3
+        },
+        {
+          "value": "27.65151515",
+          "count": 3
+        },
+        {
+          "value": "29.15151515",
+          "count": 3
+        },
+        {
+          "value": "28.89393939",
+          "count": 3
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Mid sem (out of 30)",
+      "position": 24,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 190,
+      "unique_percentage": 0.6109324758842444,
+      "sample_values": [
+        "22.65207369",
+        "20.57722748",
+        "21.1751116",
+        "20.29283084",
+        "16.22811797",
+        "21.00848969",
+        "18.29939881",
+        "19.88561208",
+        "18.83654917",
+        "21.11676872"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        }
+      ],
+      "numeric_min": 4.327882532,
+      "numeric_max": 31.24860902,
+      "numeric_mean": 19.514127210993568,
+      "numeric_median": 20.34401095,
+      "most_common_values": [
+        {
+          "value": "22.65207369",
+          "count": 6
+        },
+        {
+          "value": "20.57722748",
+          "count": 5
+        },
+        {
+          "value": "21.1751116",
+          "count": 4
+        },
+        {
+          "value": "20.29283084",
+          "count": 4
+        },
+        {
+          "value": "16.22811797",
+          "count": 4
+        },
+        {
+          "value": "21.00848969",
+          "count": 4
+        },
+        {
+          "value": "18.29939881",
+          "count": 4
+        },
+        {
+          "value": "19.88561208",
+          "count": 4
+        },
+        {
+          "value": "18.83654917",
+          "count": 4
+        },
+        {
+          "value": "21.11676872",
+          "count": 4
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "End sem (out of 30)",
+      "position": 25,
+      "physical_type": "float",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "unique_percentage": 0.028938906752411574,
+      "sample_values": [
+        "30.0",
+        "28.5",
+        "27.0",
+        "25.5",
+        "12.0",
+        "0.0",
+        "18.0",
+        "24.0",
+        "22.5"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Float64"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (9 <= 20)"
+          ]
+        }
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 30.0,
+      "numeric_mean": 28.326366559485532,
+      "numeric_median": 30.0,
+      "most_common_values": [
+        {
+          "value": "30.0",
+          "count": 175
+        },
+        {
+          "value": "28.5",
+          "count": 72
+        },
+        {
+          "value": "27.0",
+          "count": 44
+        },
+        {
+          "value": "25.5",
+          "count": 6
+        },
+        {
+          "value": "12.0",
+          "count": 5
+        },
+        {
+          "value": "0.0",
+          "count": 4
+        },
+        {
+          "value": "18.0",
+          "count": 2
+        },
+        {
+          "value": "24.0",
+          "count": 2
+        },
+        {
+          "value": "22.5",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Total",
+      "position": 26,
+      "physical_type": "integer",
+      "semantic_type": "numeric",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "unique_percentage": 0.12540192926045016,
+      "sample_values": [
+        "80",
+        "75",
+        "78",
+        "76",
+        "79",
+        "72",
+        "73",
+        "74",
+        "84",
+        "71"
+      ],
+      "inferred_type_confidence": 0.85,
+      "alternative_type_candidates": [
+        {
+          "type": "numeric",
+          "confidence": 0.85,
+          "evidence": [
+            "Polars dtype is Int64"
+          ]
+        }
+      ],
+      "numeric_min": 31.0,
+      "numeric_max": 90.0,
+      "numeric_mean": 75.46302250803859,
+      "numeric_median": 76.0,
+      "most_common_values": [
+        {
+          "value": "80",
+          "count": 25
+        },
+        {
+          "value": "75",
+          "count": 24
+        },
+        {
+          "value": "78",
+          "count": 23
+        },
+        {
+          "value": "76",
+          "count": 19
+        },
+        {
+          "value": "79",
+          "count": 16
+        },
+        {
+          "value": "72",
+          "count": 16
+        },
+        {
+          "value": "73",
+          "count": 16
+        },
+        {
+          "value": "74",
+          "count": 14
+        },
+        {
+          "value": "84",
+          "count": 13
+        },
+        {
+          "value": "71",
+          "count": 12
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "Grade",
+      "position": 27,
+      "physical_type": "string",
+      "semantic_type": "categorical",
+      "role": "feature",
+      "total_count": 311,
+      "non_null_count": 311,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "unique_percentage": 0.03536977491961415,
+      "sample_values": [
+        "B",
+        "A-",
+        "B-",
+        "A",
+        "F",
+        "C-",
+        "C",
+        "I",
+        "A+",
+        "FS"
+      ],
+      "inferred_type_confidence": 0.8,
+      "alternative_type_candidates": [
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (11 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.3,
+          "evidence": [
+            "Polars dtype is String with length <= 30 (avg=1.4)"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "B",
+          "count": 161
+        },
+        {
+          "value": "A-",
+          "count": 67
+        },
+        {
+          "value": "B-",
+          "count": 39
+        },
+        {
+          "value": "A",
+          "count": 30
+        },
+        {
+          "value": "F",
+          "count": 3
+        },
+        {
+          "value": "C-",
+          "count": 3
+        },
+        {
+          "value": "C",
+          "count": 3
+        },
+        {
+          "value": "I",
+          "count": 2
+        },
+        {
+          "value": "A+",
+          "count": 1
+        },
+        {
+          "value": "FS",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    },
+    {
+      "name": "_duplicated_0",
+      "position": 28,
+      "physical_type": "string",
+      "semantic_type": "identifier",
+      "role": "identifier",
+      "total_count": 311,
+      "non_null_count": 2,
+      "null_count": 309,
+      "null_percentage": 0.9935691318327974,
+      "unique_count": 3,
+      "unique_percentage": 0.00964630225080386,
+      "sample_values": [
+        "I took the Solid Edge Lab exam (60 marks) with Batch 5 and submitted it through Batch 5\u2019s submission link. I could not take the exam with my own batch (Batch 1) due to illness, and I had also sent you an email regarding this matter. However, the marks for the Solid Edge Lab exam are not shown in the Excel sheet.",
+        "Sir, I done the cnc lab and also submit the practical but I got zero in cnc lab. I don't know the TA name "
+      ],
+      "inferred_type_confidence": 1.0,
+      "alternative_type_candidates": [
+        {
+          "type": "identifier",
+          "confidence": 1.0,
+          "evidence": [
+            "High uniqueness ratio (1.00 >= 0.95)"
+          ]
+        },
+        {
+          "type": "categorical",
+          "confidence": 0.8,
+          "evidence": [
+            "Low absolute cardinality (2 <= 20)"
+          ]
+        },
+        {
+          "type": "text",
+          "confidence": 0.7,
+          "evidence": [
+            "Average string length (209.5) > 30"
+          ]
+        }
+      ],
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "numeric_median": null,
+      "most_common_values": [
+        {
+          "value": "I took the Solid Edge Lab exam (60 marks) with Batch 5 and submitted it through Batch 5\u2019s submission link. I could not take the exam with my own batch (Batch 1) due to illness, and I had also sent you an email regarding this matter. However, the marks for the Solid Edge Lab exam are not shown in the Excel sheet.",
+          "count": 1
+        },
+        {
+          "value": "Sir, I done the cnc lab and also submit the practical but I got zero in cnc lab. I don't know the TA name ",
+          "count": 1
+        }
+      ],
+      "detected_formats": []
+    }
+  ],
+  "validation_issues": [
+    {
+      "code": "high_null_rate",
+      "severity": "warning",
+      "title": "High null rate in column ''",
+      "message": "Column '' has 96.8% null values, exceeding the 10.0% threshold.",
+      "column_name": "",
+      "affected_rows": 301,
+      "affected_percentage": 96.78456591639872,
+      "evidence": {
+        "null_count": 301,
+        "null_percentage": 0.9678456591639871,
+        "threshold": 0.1
+      },
+      "recommended_action": "Consider imputing missing values or dropping the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "high_null_rate",
+      "severity": "warning",
+      "title": "High null rate in column '_duplicated_0'",
+      "message": "Column '_duplicated_0' has 99.4% null values, exceeding the 10.0% threshold.",
+      "column_name": "_duplicated_0",
+      "affected_rows": 309,
+      "affected_percentage": 99.35691318327974,
+      "evidence": {
+        "null_count": 309,
+        "null_percentage": 0.9935691318327974,
+        "threshold": 0.1
+      },
+      "recommended_action": "Consider imputing missing values or dropping the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "mixed_type",
+      "severity": "error",
+      "title": "Mixed types in column ''",
+      "message": "Column '' contains both numeric (5) and non-numeric (5) values.",
+      "column_name": "",
+      "affected_rows": 10,
+      "affected_percentage": 3.215434083601286,
+      "evidence": {
+        "numeric_count": 5,
+        "string_count": 5
+      },
+      "recommended_action": "Standardize column values to a single type or split the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "mixed_type",
+      "severity": "error",
+      "title": "Mixed types in column '3-d printing'",
+      "message": "Column '3-d printing' contains both numeric (304) and non-numeric (1) values.",
+      "column_name": "3-d printing",
+      "affected_rows": 305,
+      "affected_percentage": 98.07073954983923,
+      "evidence": {
+        "numeric_count": 304,
+        "string_count": 1
+      },
+      "recommended_action": "Standardize column values to a single type or split the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "mixed_type",
+      "severity": "error",
+      "title": "Mixed types in column 'laser cutting'",
+      "message": "Column 'laser cutting' contains both numeric (303) and non-numeric (2) values.",
+      "column_name": "laser cutting",
+      "affected_rows": 305,
+      "affected_percentage": 98.07073954983923,
+      "evidence": {
+        "numeric_count": 303,
+        "string_count": 2
+      },
+      "recommended_action": "Standardize column values to a single type or split the column.",
+      "auto_fix_available": false
+    },
+    {
+      "code": "mixed_type",
+      "severity": "error",
+      "title": "Mixed types in column 'welding'",
+      "message": "Column 'welding' contains both numeric (302) and non-numeric (8) values.",
+      "column_name": "welding",
+      "affected_rows": 310,
+      "affected_percentage": 99.67845659163987,
+      "evidence": {
+        "numeric_count": 302,
+        "string_count": 8
+      },
+      "recommended_action": "Standardize column values to a single type or split the column.",
+      "auto_fix_available": false
+    }
+  ],
+  "quality_score": 50.0,
+  "summary": {
+    "html_report_path": "data\\reports\\ds_73f80ac1_profile.html"
+  }
+}
