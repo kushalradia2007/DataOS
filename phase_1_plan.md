@@ -40,15 +40,7 @@ Build a robust system that accepts raw tabular data, understands its structure a
 - Validation catches 100% of nulls, dupes, and obvious type mismatches
 - Processing time <30s for 1M row datasets
 
-Are you building this solo or with a team?
 
-Prepared using Kimi K3
-
-![](https://www.google.com/s2/favicons?sz=128&domain=perplexity.ai)
-
-![](https://www.google.com/s2/favicons?sz=128&domain=perplexity.ai)
-
-2 sources
 
 i am building solo with the help of cursor and google antigravity
 
@@ -81,11 +73,7 @@ Solo with AI assistance, Phase 1 is realistic in **2–3 weeks** instead of 4: w
 
 Want me to draft the Phase 1 folder structure and the schema JSON contract as a downloadable starter file?
 
-Prepared using Kimi K3
 
-![](https://www.google.com/s2/favicons?sz=128&domain=perplexity.ai)
-
-1 source
 
 yes detailed phase 1 folder
 
@@ -749,12 +737,4 @@ Requirements:
 
 Phase 1 should only **observe, classify, validate, and report**. It must not silently clean, drop, encode, impute, scale, generate features, or select a target. Those transformations belong to later platform phases, while the Phase 1 report becomes their trusted input contract.
 
-Prepared using Kimi K3
 
-Ask a follow-up
-
-SearchComputer
-
-Kimi K3 Thinking
-
-![](https://edge.perplexity.ai/image)
