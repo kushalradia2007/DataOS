@@ -1,6 +1,6 @@
 # Auto Data Platform Phase 1
 
-An automated data platform for ingestion, profiling, schema/type inference, and quality validation reporting.
+An AI-powered ML Data Preparation Platform that understands datasets, recommends an explainable preprocessing pipeline, lets users modify every decision through an interactive visual pipeline builder, produces ML-ready datasets, and generates an intelligent ML Readiness Report with actionable guidance for the next steps.
 
 ## Features
 - **Multi-format Ingestion**: Load CSV, Excel, and Parquet files safely.
